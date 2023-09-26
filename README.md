@@ -1,27 +1,26 @@
-# FormsReativos
+# Formulàrios orientados a templates
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+Neste curso, vamos conhecer como trabalhar com formulários orientados a template no Angular.
 
-## Development server
+# Tópicos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Conheça o formulário orientado a template
+- Entenda como usa o FormsModule e suas diretivas
+- Sabia como utilizar validações padrões
+- Entenda como criar diretivas validadoras
+- Implemente validação assincrona com uso de API
 
-## Code scaffolding
+### Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para instalar o Angular CLI é necessário ter o NodeJS instalado na versão 16.17.0, sua instalação é bem simples, basta baixar, executar o arquivo e seguir os passos de instalação.
+Após instalar o Node, acesse o terminal ou Prompt de Comando e digite o seguinte comando para fazer a instalação do Angular CLI na versão usada no curso:
 
-## Build
+Instale o Angular CLI globalmente:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+``npm install -g @angular/cli@14.2.4``
 
-## Running unit tests
+Execute o comando abaixo para subir o aplicativo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+``npm install && ng serve --o``
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para visualizar a tela acesse http://localhost:4200/
